@@ -7,11 +7,8 @@ function bubbleSort() {
                         array[j] = array[j+1];
                         array[j+1] = p;
                     }
-                    
                 }        
         }
-        for (let i = 0; i < array.length; i++) {
-            console.log(array[i]);
-        }
+         console.log(array.join(' '));
     }
 bubbleSort();
